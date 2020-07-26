@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "riderApp",
+    "slug": "riderExpo",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "sdkVersion": "37.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "bundleIdentifier": "com.digitalBites.riderApp",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.digitalBites.riderApp",
+      "versionCode": 1,
+      "config": {
+        "googleMaps": { "apiKey": "AIzaSyD-2KnDs0lN_0Z293JcYo9pDFF280_819k" }   
+     }
+    }
+  }
+}
